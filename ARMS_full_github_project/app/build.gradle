@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.arms.ke3'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.arms.ke3'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.1-alpha'
+    }
+}
+
+
+dependencies {
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0'
+}
